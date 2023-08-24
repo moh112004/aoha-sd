@@ -7,8 +7,45 @@ body{
     background-color: black;
 }
 .bd{
+    margin: 0;
     position: relative;
 }
+.text{
+    position: absolute;
+    top: 0;
+    left: 250px;
+    z-index: 1;
+    background-color: rgba(43, 39, 39,0.7);
+    text-decoration-color:white ;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+.img-fotter-content{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 2;
+    background-color: rgba(255,255,255,0.5);
+    padding: 7px;
+    border-radius: 7px;
+    
+}
+
+.img-fotter-content .first-line{
+    text-decoration: none;
+    color: red;
+    font-size: 40px;
+
+}
+.img-fotter-content span{
+    font-size: 30px;
+}
+.img-fotter-content a{
+    color: black;
+}  
 .logo{
     position: absolute;
 right: 7%;
@@ -91,30 +128,4 @@ footer {
     margin-right: 10px;
     font-size: 40px;
 }
-.count {
-    background-color: white;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
 
-.count ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.count ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.count ul li .num {
-    text-decoration: none;
-    color: red;
-    margin-right: 100px;
-}
-.count ul li .def {
-    text-decoration: none;
-    color: black;
-}
